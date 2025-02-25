@@ -23,7 +23,7 @@ bool checarCondicao(const std::map<int, int> &dadosMap)
     {
         if (i.second > 0)
         {
-            return true
+            return true;
         }
     }
 }
@@ -32,7 +32,11 @@ void fazerRobin(std::map<int, int> dadosMap)
 {
     std::cout << "---começando robin" << std::endl;
     int tempoProcessTotal;
-    while
+    while ((checarCondicao))
+    {
+        // TODO: verificar se a solução usando o metodo checarCondicao não é O(n^2)
+        //  e tambem terminar a logica do robin
+    }
 }
 
 int main()
